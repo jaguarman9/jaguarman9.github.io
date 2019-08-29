@@ -2,11 +2,18 @@
 /*f6e0b3*/
 /*dbcc8f*/
 /*4e4e4e*/
-
+body{margin:0;padding:0;width: 100%;height: 100%;}
 
 #navbar{
     width: 100%;
     height: 40px;
     background-color: #dbcc8f;
     color:#4e4e4e;
+}
+.navbar-item{
+    max-width: 200px;
+    min-width: 75px;
+    height: 100%;
+    background-color: #f6e0b3;
+    color: inherit;
 }
