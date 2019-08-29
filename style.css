@@ -33,9 +33,11 @@ html, body {height: 100%;margin: 0;padding: 0;overflow: hidden;font-family: 'Rub
     font-size: 24px;
     line-height: 60px;
 }
-.navbar-item:hover{
-    
-}
 .right-nav-item{
     border-right: 4px solid #fff5eb;
+}
+.dropdown-container{
+    position: relative;
+    background-color: black;
+    width: 205px;
 }
