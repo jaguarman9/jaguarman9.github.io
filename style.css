@@ -21,6 +21,8 @@ html, body {height: 100%;margin: 0;padding: 0;overflow: hidden;font-family: 'Rub
     height: 100%;
     margin: 0 auto;
     background-color: #fff5eb;
+    overflow: auto;
+    white-space: nowrap;
 }
 .navbar-item{
     width: 205px;
@@ -32,6 +34,7 @@ html, body {height: 100%;margin: 0;padding: 0;overflow: hidden;font-family: 'Rub
     float: left;
     font-size: 24px;
     line-height: 60px;
+    display: inline-block;
 }
 .right-nav-item{
     border-right: 4px solid #fff5eb;
@@ -41,3 +44,14 @@ html, body {height: 100%;margin: 0;padding: 0;overflow: hidden;font-family: 'Rub
     background-color: black;
     width: 205px;
 }
+@media screen and (max-width: calc(205px * 3)) {
+    body {
+      background-color: blue;
+    }
+  }
+  
+  @media screen and (max-width: 200px) {
+    body {
+      background-color: olive;
+    }
+  }
